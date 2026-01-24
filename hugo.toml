@@ -1,0 +1,61 @@
+baseURL = 'https://khaled2049.github.io/devlog/'
+languageCode = 'en-us'
+title = 'Khaled Dev Log'
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+  description = "Weekly development logs and project updates"
+  author = "Khaled"
+  
+  # Show reading time
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  
+  [params.homeInfoParams]
+    Title = "Khaled's Dev Log"
+    Content = "Weekly updates on my projects, learning journey, and transition from software engineering to clinical therapy."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/khaled2049"
+
+  [params.assets]
+    disableHLJS = false
+    disableFingerprinting = false
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+    
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+    
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    noClasses = false
+    style = "monokai"
