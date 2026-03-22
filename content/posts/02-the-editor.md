@@ -1,7 +1,7 @@
 ---
 title: "The Editor"
 date: 2026-03-22T15:21:43-06:00
-draft: true
+draft: false
 tags: ["thetaletribe"]
 categories: ["thetaletribe"]
 ---

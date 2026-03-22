@@ -19,7 +19,7 @@ theme = 'PaperMod'
   
   [params.homeInfoParams]
     Title = "Khaled's Dev Log"
-    Content = "Weekly updates on my projects, learning journey, and transition from software engineering to clinical therapy."
+    Content = "Updates on my projects & learning journey"
 
   [[params.socialIcons]]
     name = "github"
