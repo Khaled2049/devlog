@@ -1,14 +1,14 @@
-baseURL = 'https://khaled2049.github.io/devlog/'
+baseURL = 'https://khaled2049.github.io/devlog'
 languageCode = 'en-us'
-title = 'Khaled Dev Log'
+title = 'Khaled in Progress'
 theme = 'PaperMod'
 
 [params]
   env = "production"
-  description = "Weekly development logs and project updates"
+  description = "Building things, breaking things, writing about it"
   author = "Khaled"
-  
-  # Show reading time
+  defaultTheme = "dark"
+
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
@@ -16,10 +16,11 @@ theme = 'PaperMod'
   ShowCodeCopyButtons = true
   ShowWordCount = true
   ShowRssButtonInSectionTermList = true
-  
+  ShowToc = true
+
   [params.homeInfoParams]
-    Title = "Khaled's Dev Log"
-    Content = "Updates on my projects & learning journey"
+    Title = "Hey, I'm Khaled"
+    Content = "Software engineer building in public. Writing about code, side projects, and whatever else is on my mind. Currently heads down on TaleTribe."
 
   [[params.socialIcons]]
     name = "github"
@@ -35,13 +36,13 @@ theme = 'PaperMod'
     name = "Posts"
     url = "/posts/"
     weight = 10
-    
+
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
     weight = 20
-    
+
   [[menu.main]]
     identifier = "search"
     name = "Search"
